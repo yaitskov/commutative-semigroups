@@ -24,9 +24,6 @@ import Data.Functor.Const
 import Data.Functor.Identity
 import Data.Semigroup (Max, Min, WrappedMonoid)
 #endif
-#if MIN_VERSION_base(4,10,0)
-import GHC.Event (Event, Lifetime)
-#endif
 #if MIN_VERSION_base(4,12,0)
 import Data.Functor.Contravariant (Op(Op))
 import GHC.Generics
@@ -58,11 +55,6 @@ instance Commutative Void
 instance Ord a => Commutative (Max a)
 instance Ord a => Commutative (Min a)
 instance (Commutative a, Monoid a) => Commutative (WrappedMonoid a)
-#endif
-
-#if MIN_VERSION_base(4,10,0)
-instance Commutative Event
-instance Commutative Lifetime
 #endif
 
 -- | @since 0.0.1.0
