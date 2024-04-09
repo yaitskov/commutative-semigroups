@@ -1,5 +1,9 @@
 # Revision history for commutative-semigroups
 
+## 0.2 -- 2024-04-09
+
+- Removed the instances for the `Event` and `Lifetime` types unavailable on Windows
+
 ## 0.1.1.0 -- 2024-03-24
 
 - Added more trivial instances for semigroups from base
