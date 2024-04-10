@@ -3,7 +3,7 @@ version:             0.2
 synopsis:            Commutative semigroups
 description:
   A commutative semigroup is a semigroup where the order of arguments to mappend does not matter.
-license:             BSD-3-Clause
+license:             BSD3
 license-file:        LICENSE
 author:              Nathan "Taneb" van Doorn
 maintainer:          maintainer@obsidian.systems
