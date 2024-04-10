@@ -1,4 +1,3 @@
-cabal-version:       2.4
 name:                commutative-semigroups
 version:             0.2
 synopsis:            Commutative semigroups
@@ -24,7 +23,7 @@ library
   exposed-modules:     Data.Semigroup.Commutative
                        Numeric.Product.Commutative
   -- other-modules:
-  build-depends:       base >= 4.6 && < 4.20,
+  build-depends:       base >= 4.6 && < 5,
                        containers >= 0.4 && < 0.8
   hs-source-dirs:      src
   default-language:    Haskell2010
